@@ -1,0 +1,67 @@
+package br.com.alura.loja;
+
+public class Produto {
+
+
+}
+
+package br.com.alura.loja;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ProdutoTest {
+
+        @Test
+        public void test() {
+                fail("Not yet implemented");
+        }
+
+//código omitido
+
+ <plugins>
+     <plugin>
+     <artifactId>maven-compiler-plugin</artigactId>
+     <version>3.8.0</version>
+     <configuration>
+         <release>11</release>
+        </configuration>
+    </plugin>
+    <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.1</version>
+        <configuration>
+            <warSourceDirectory>WebC// código omitido
+
+<sourceDirectory>src</sourceDirectory>
+<testSourceDirectory>test</testSourceDirectory>
+
+        <resources>
+                <resource>
+                    <directory>src</directory>
+                    <excludes>
+                        <exclude> **/*.java<exclude>
+                    </excludes>
+                </resource>
+        </resources>
+
+// código omitido
+ontent</warSourceDirectory>
+        </configuration>
+    </plugin>
+</plugins>
+
+//código omitido
+
+<configuration>
+    <warSourceDirectory>WebContent</warSourceDirectory>
+</configuration>
+
+
+
+
+
+
+
+}
